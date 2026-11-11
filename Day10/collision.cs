@@ -10,4 +10,5 @@ public class collision : MonoBehaviour
 	  //ぶつかってきたAを消す
 	  Destroy(collision.gameObject);
 	}
+	 //このスクリプトをオブジェクトBにアタッチしてください。
 }
