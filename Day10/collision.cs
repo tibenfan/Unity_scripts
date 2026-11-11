@@ -1,0 +1,8 @@
+void OnCollisionEnter2D(Collision2D collision)
+{
+  //AがBにぶつかることを想定
+	//ぶつかられたBを消す 
+	Destroy(gameObject);
+  //ぶつかってきたAを消す
+  Destroy(collision.gameObject);
+}
