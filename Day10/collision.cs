@@ -1,8 +1,13 @@
-void OnCollisionEnter2D(Collision2D collision)
+using UnityEngine;
+using System.Collections.Generic;
+public class collision : MonoBehaviour
 {
-  //AがBにぶつかることを想定
-	//ぶつかられたBを消す 
-	Destroy(gameObject);
-  //ぶつかってきたAを消す
-  Destroy(collision.gameObject);
+	void OnCollisionEnter2D(Collision2D collision)
+	{
+	  //AがBにぶつかることを想定
+		//ぶつかられたBを消す 
+		Destroy(gameObject);
+	  //ぶつかってきたAを消す
+	  Destroy(collision.gameObject);
+	}
 }
