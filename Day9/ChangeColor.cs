@@ -19,4 +19,5 @@ public class ChangeColor : MonoBehaviour
           sr.material.color = Color.white;
       }
   }
+   //このスクリプトをオブジェクトにアタッチしてください。
   }
